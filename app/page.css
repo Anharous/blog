@@ -1,0 +1,139 @@
+.sub-whole-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 70% 30%;
+}
+
+.details-left{
+    padding: 0px 64px 0px 80px;
+}
+
+.head-prof-sub{
+    display: grid;
+    grid-auto-flow: column;  
+    justify-content: start;
+    gap: 5px;
+
+}
+.head-profile{
+    display: grid;
+    grid-auto-flow: column;  
+    justify-content: space-between;
+}
+
+.head-prof-details{
+    line-height: 2px;
+    font-size: 11px;
+}
+
+.number-container{
+    display: grid;
+    gap: 24px;
+}
+
+.number-box{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    border: solid 1px #89CFF3 ;
+}
+
+.share-container{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+    padding-top: 20px;
+    border-top: solid 1px #dddddd;
+
+}
+
+.share-box{
+    border: solid 1px #dddddd;
+    border-radius: 14px;
+    Padding:4px 8px 4px 8px;
+}
+
+.share-button{
+    background: none;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.read-container{
+    padding: 40px 80px;
+}
+
+.read-more-text{
+    border-bottom: solid 1px #dddddd;
+    padding-bottom: 13px;
+    color: #777777;
+    font-weight: 600;
+}
+
+.read-item{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 34px;
+}
+.read-prof{
+    display: grid;
+    grid-auto-flow: column;  
+    justify-content: space-between;
+}
+
+.read-prof-details{
+    line-height: 2px;
+    font-size: 11px;
+}
+
+
+.read-prof-sub{
+    display: grid;
+    grid-auto-flow: column;  
+    justify-content: start;
+    gap: 5px;
+
+}
+
+.insurance{
+    color:#00A9FF;
+    font-weight: 400;
+}
+
+
+.whole-container p{
+    color: #777;
+    font-size: 14px;
+   
+}
+
+.conclusion-container p,li{
+    padding: 0px 0px 12px 0px;
+}
+
+.conclusion-container h1{
+    padding: 11px 0px 8px;
+}
+
+.conclusion-container li{
+    color: #777;
+}
+
+.side-bar{
+    padding-left:30px;
+    max-width: 269px;
+    width: 100%;
+}
+
+.traslation-container p{
+    margin: 24px 0px;
+
+}
+
+.head-img-para p{
+    margin: 24px 0px;
+}
